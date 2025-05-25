@@ -1,0 +1,28 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 50h400M50 150h400M50 250h400M50 350h400M50 450h400M50 50v400M150 50v400M250 50v400M350 50v400M450 50v400" stroke="#2B85C6" stroke-width="1"/>
+  <circle cx="50" cy="50" r="5" fill="#2B85C6"/>
+  <circle cx="150" cy="50" r="5" fill="#2B85C6"/>
+  <circle cx="250" cy="50" r="5" fill="#2B85C6"/>
+  <circle cx="350" cy="50" r="5" fill="#2B85C6"/>
+  <circle cx="450" cy="50" r="5" fill="#2B85C6"/>
+  <circle cx="50" cy="150" r="5" fill="#2B85C6"/>
+  <circle cx="150" cy="150" r="5" fill="#2B85C6"/>
+  <circle cx="250" cy="150" r="5" fill="#2B85C6"/>
+  <circle cx="350" cy="150" r="5" fill="#2B85C6"/>
+  <circle cx="450" cy="150" r="5" fill="#2B85C6"/>
+  <circle cx="50" cy="250" r="5" fill="#2B85C6"/>
+  <circle cx="150" cy="250" r="5" fill="#2B85C6"/>
+  <circle cx="250" cy="250" r="5" fill="#2B85C6"/>
+  <circle cx="350" cy="250" r="5" fill="#2B85C6"/>
+  <circle cx="450" cy="250" r="5" fill="#2B85C6"/>
+  <circle cx="50" cy="350" r="5" fill="#2B85C6"/>
+  <circle cx="150" cy="350" r="5" fill="#2B85C6"/>
+  <circle cx="250" cy="350" r="5" fill="#2B85C6"/>
+  <circle cx="350" cy="350" r="5" fill="#2B85C6"/>
+  <circle cx="450" cy="350" r="5" fill="#2B85C6"/>
+  <circle cx="50" cy="450" r="5" fill="#2B85C6"/>
+  <circle cx="150" cy="450" r="5" fill="#2B85C6"/>
+  <circle cx="250" cy="450" r="5" fill="#2B85C6"/>
+  <circle cx="350" cy="450" r="5" fill="#2B85C6"/>
+  <circle cx="450" cy="450" r="5" fill="#2B85C6"/>
+</svg>
