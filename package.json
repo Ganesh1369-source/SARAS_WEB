@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Ganesh1369-source.github.io/SARAS_WEB/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
