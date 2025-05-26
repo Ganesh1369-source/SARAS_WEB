@@ -8,28 +8,28 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # Run on a Linux virtual machine
+    permissions: # Add this section
+      contents: write # Grant write permission to the GITHUB_TOKEN
+      pages: write # Grant write permission for GitHub Pages deployment
+      id-token: write # Grant ID token permission for OpenID Connect (OIDC) - good practice
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # Action to checkout your repository code
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Use a recent LTS Node.js version (e.g., 18, 20)
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install # Install project dependencies
+        run: npm install
 
       - name: Build project
-        run: npm run build # Run your build command (creates the dist folder)
+        run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3 # Action specifically for deploying to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
-          publish_dir: ./dist # The folder containing your built website
-          # For the root path, you might need to specify a CNAME if you have a custom domain
-          # or if your app uses absolute paths without a base.
-          # If your Vite config includes a base path for GitHub Pages, this should work.
-          # e.g., base: '/SARAS_WEB/' in vite.config.ts
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
