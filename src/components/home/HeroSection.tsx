@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-8 text-xl font-medium text-secondary-500 md:text-2xl lg:text-3xl font-heading"
           >
-            INNOVATE. AUTOMATE. SCALE.
+            INNOVATE AUTOMATE SCALE
           </motion.p>
           
           <motion.p
